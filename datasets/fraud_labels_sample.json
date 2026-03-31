@@ -1,1 +1,22 @@
-
+[
+  {"transaction_id": 7475327, "fraud": 0},
+  {"transaction_id": 7475328, "fraud": 0},
+  {"transaction_id": 7475329, "fraud": 0},
+  {"transaction_id": 7475331, "fraud": 1},
+  {"transaction_id": 7475332, "fraud": 0},
+  {"transaction_id": 7475333, "fraud": 0},
+  {"transaction_id": 7475334, "fraud": 0},
+  {"transaction_id": 7475335, "fraud": 0},
+  {"transaction_id": 7475336, "fraud": 1},
+  {"transaction_id": 7475337, "fraud": 0},
+  {"transaction_id": 7475338, "fraud": 0},
+  {"transaction_id": 7475339, "fraud": 0},
+  {"transaction_id": 7475340, "fraud": 0},
+  {"transaction_id": 7475341, "fraud": 0},
+  {"transaction_id": 7475342, "fraud": 0},
+  {"transaction_id": 7475343, "fraud": 0},
+  {"transaction_id": 7475344, "fraud": 0},
+  {"transaction_id": 7475345, "fraud": 1},
+  {"transaction_id": 7475346, "fraud": 0},
+  {"transaction_id": 7475347, "fraud": 0}
+]
