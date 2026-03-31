@@ -2,9 +2,13 @@
 
 ## Overview
 
-This project implements a real-time financial transaction processing pipeline using Kafka, Apache Spark Structured Streaming, and Delta Lake.
+This project demonstrates a real-time data engineering pipeline that processes financial transactions.
 
-The pipeline simulates streaming credit card transactions, processes them in real-time, applies fraud detection rules, and stores results in Delta Lake for analytics.
+The system streams transaction data through Kafka, processes it with Spark Structured Streaming, and stores the results in Delta Lake for analytics.
+
+Pipeline Flow
+
+Data Generator → Kafka → Spark Streaming → Delta Lake → Analytics
 
 ## Architecture
 
@@ -54,10 +58,5 @@ Run producer
 Step 3
 Run Spark streaming job
 
-Dataset
-
-The full dataset contains over 1 million financial transactions used to simulate a real-time fraud detection pipeline.
-
-Due to GitHub storage limits, only a small sample dataset is included in this repository.
-
-The pipeline architecture simulates streaming ingestion through Kafka and processing with Spark Structured Streaming.
+The full dataset contains 1M+ transactions used to simulate real-time streaming.
+Only a small sample is included in the repository.
