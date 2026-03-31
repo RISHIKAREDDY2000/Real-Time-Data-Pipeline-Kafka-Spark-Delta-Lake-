@@ -1,1 +1,13 @@
-
+Transaction Dataset
+        ↓
+Kafka Producer
+        ↓
+Kafka Topic
+        ↓
+Spark Structured Streaming
+        ↓
+Transformation Layer
+        ↓
+Delta Lake
+        ↓
+Analytics / BI
