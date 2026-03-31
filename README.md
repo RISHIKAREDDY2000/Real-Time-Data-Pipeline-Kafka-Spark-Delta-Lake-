@@ -1,62 +1,38 @@
-# Real-Time Data Pipeline (Kafka + Spark + Delta Lake)
+# Real-Time Data Pipeline
+
+Kafka + Spark Structured Streaming + Delta Lake
 
 ## Overview
 
-This project demonstrates a real-time data engineering pipeline that processes financial transactions.
+This project demonstrates a real-time data engineering pipeline that processes financial transaction data using Apache Kafka and Spark Structured Streaming. The pipeline ingests streaming transaction events, applies transformations, and stores the results in Delta Lake for analytics.
 
-The system streams transaction data through Kafka, processes it with Spark Structured Streaming, and stores the results in Delta Lake for analytics.
-
-Pipeline Flow
-
-Data Generator → Kafka → Spark Streaming → Delta Lake → Analytics
+The goal of this project is to simulate a modern streaming data platform used for processing high-volume event data.
 
 ## Architecture
 
-Data Generator → Kafka → Spark Structured Streaming → Delta Lake → BI Tools
+Transaction Generator
+→ Apache Kafka
+→ Spark Structured Streaming
+→ Delta Lake
+→ Analytics / BI Tools
 
-## Technologies
+## Tech Stack
 
-Kafka
+Apache Kafka
 Apache Spark
 Delta Lake
 Python
-Docker
-Power BI
+SQL
 
-## Dataset
+## Pipeline Workflow
 
-The project uses a simulated financial transaction dataset with over 1 million transactions.
+1. Transaction data is generated and sent to a Kafka topic.
+2. Spark Structured Streaming reads streaming data from Kafka.
+3. Transformation logic flags high-value transactions.
+4. Processed data is stored in Delta Lake tables.
 
-Dataset includes:
+## Use Cases
 
-transaction_id
-client_id
-card_id
-merchant_id
-amount
-merchant_city
-merchant_state
-MCC code
-
-Only a sample dataset is included in this repository.
-
-## Key Features
-
-Real-time streaming pipeline
-Kafka event ingestion
-Spark Structured Streaming transformations
-Fraud detection rule engine
-Delta Lake storage layer
-Analytics ready data
-
-## Running the Pipeline
-
-Step 1
-Start Kafka
-Step 2
-Run producer
-Step 3
-Run Spark streaming job
-
-The full dataset contains 1M+ transactions used to simulate real-time streaming.
-Only a small sample is included in the repository.
+Fraud detection systems
+Real-time financial analytics
+Streaming event processing
