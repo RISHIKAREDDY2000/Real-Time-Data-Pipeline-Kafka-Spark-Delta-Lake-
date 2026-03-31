@@ -54,7 +54,7 @@ Run producer
 Step 3
 Run Spark streaming job
 
-##Dataset
+Dataset
 
 The full dataset contains over 1 million financial transactions used to simulate a real-time fraud detection pipeline.
 
