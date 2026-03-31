@@ -54,3 +54,8 @@ Start Kafka
 Step 2
 
 Run producer
+
+Step 3
+
+Run Spark streaming job
+
