@@ -48,14 +48,16 @@ Analytics ready data
 ## Running the Pipeline
 
 Step 1
-
 Start Kafka
-
 Step 2
-
 Run producer
-
 Step 3
-
 Run Spark streaming job
 
+##Dataset
+
+The full dataset contains over 1 million financial transactions used to simulate a real-time fraud detection pipeline.
+
+Due to GitHub storage limits, only a small sample dataset is included in this repository.
+
+The pipeline architecture simulates streaming ingestion through Kafka and processing with Spark Structured Streaming.
